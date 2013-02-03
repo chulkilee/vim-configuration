@@ -6,3 +6,6 @@ filetype plugin indent on
 " solarized
 colorscheme solarized
 set background=dark
+
+" key map
+let mapleader = ','
