@@ -7,6 +7,7 @@
 
 ## Bundles
 
+- [ack.vim](https://github.com/mileszs/ack.vim)
 - [Command-T](https://github.com/wincent/Command-T)
 - [nerdtree](https://github.com/scrooloose/nerdtree)
 - [syntastic](https://github.com/scrooloose/syntastic)
