@@ -3,7 +3,7 @@
 ## Installation
 
     git clone https://github.com/chulkilee/vim-configuration  ~/.vim
-    ln -s ~/.vim/.vimrc ~/.vimrc
+    ln -s ~/.vim/vimrc ~/.vimrc
 
 ## Bundles
 
