@@ -15,3 +15,7 @@
 - [tcomment_vim](https://github.com/tomtom/tcomment_vim)
 - [vim-colors-solarized](https://github.com/altercation/vim-colors-solarized)
 - [vim-fugitive](https://github.com/tpope/vim-fugitive)
+
+## Links
+
+- [github:krisleech/vimfiles](https://github.com/krisleech/vimfiles)
