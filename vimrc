@@ -96,3 +96,10 @@ let g:CommandTMaxHeight = 20
 
 nnoremap // :TComment<CR>
 vnoremap // :TComment<CR>
+
+
+" -----------------------------------------------------------------------------
+" language-specific
+" -----------------------------------------------------------------------------
+"
+autocmd Filetype ruby setl shiftwidth=2 softtabstop=2
