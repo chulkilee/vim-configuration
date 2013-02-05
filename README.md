@@ -4,6 +4,9 @@
 
     git clone https://github.com/chulkilee/vim-configuration  ~/.vim
     ln -s ~/.vim/vimrc ~/.vimrc
+    cd ~/.vim
+    git submodule init
+    git submodule update
 
 ## Bundles
 
