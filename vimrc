@@ -48,13 +48,22 @@ set splitbelow splitright
 colorscheme solarized
 set background=dark
 
+set wildmenu
+
+set showmatch
+set hlsearch
+
+" turn off search highlight
+nnoremap <leader><space> :nohlsearch<CR>
+
 " -----------------------------------------------------------------------------
 " Formatting
 " -----------------------------------------------------------------------------
 
 " default indent
-set shiftwidth=4
+set tabstop=4
 set softtabstop=4
+set shiftwidth=4
 set expandtab
 set autoindent
 set smartindent
@@ -97,9 +106,17 @@ let g:CommandTMaxHeight = 20
 nnoremap // :TComment<CR>
 vnoremap // :TComment<CR>
 
-
 " -----------------------------------------------------------------------------
 " language-specific
 " -----------------------------------------------------------------------------
 "
-autocmd Filetype ruby setl shiftwidth=2 softtabstop=2
+augroup configgroup
+    autocmd!
+    autocmd VimEnter * highlight clear SignColumn
+    autocmd FileType ruby setlocal tabstop=2
+    autocmd FileType ruby setlocal shiftwidth=2
+    autocmd FileType ruby setlocal softtabstop=2
+    autocmd BufEnter *.sh setlocal tabstop=2
+    autocmd BufEnter *.sh setlocal shiftwidth=2
+    autocmd BufEnter *.sh setlocal softtabstop=2
+augroup END
