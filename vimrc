@@ -82,16 +82,6 @@ endif
 
 " status line
 set laststatus=2
-" path
-set statusline=%f
-" flags
-set statusline+=%m%r%h%w
-" git branch
-set statusline+=\ %{fugitive#statusline()}
-" encoding
-set statusline+=\ [%{strlen(&fenc)?&fenc:&enc}]
-" line x of y
-set statusline+=\ [line\ %l\/%L]
 
 " -----------------------------------------------------------------------------
 " Command-T
